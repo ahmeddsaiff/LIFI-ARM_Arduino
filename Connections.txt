@@ -1,0 +1,18 @@
+Connections:
+
+Tiva C							Arduino
+Infrared -> PA2						Reciever -> pin 3
+
+start -> PB1						Led    -> pin 10
+
+da switch gowa al tiva					Buzzer -> pin 11	
+stop -> PF0 						
+							mute   -> pin 13
+
+UltraSonic -> echo : PB6				Lcd -> rs=8,e=9,d4=4,d5=5,d6=6,d7=7
+	      trig : PA4				  	
+
+
+Gas -> PD3
+
+Magnetic -> PD2

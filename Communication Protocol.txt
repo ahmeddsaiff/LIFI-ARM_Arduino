@@ -1,0 +1,20 @@
+Communication Protocol between Two MCUs using infrared:
+
+The led is on ->
+
+Operation		Duration			ToDo
+
+Start		 	500ms			1)Lcd & mobile display "All is Okay.."
+						2)Led is OFF & Buzzer
+
+Gas Sensor	        1 sec			1)Lcd & mobile display "Fire is detected!"
+						2)Flashing led and buzzer is on until i press mute or stop button.
+
+UltraSonic	 	2 secs			1)Lcd & mobile display "Door is opened!"
+						2)Flashing led and buzzer is on until i press mute or stop button.
+
+MagneticSw	 	1.5secs			1)Lcd & mobile display "Intrusion!"
+						2)Flashing led and buzzer is on until i press mute or stop button.
+
+Stop		 	2.5secs			1)Lcd & mobile display "Closed!!.."
+						2)Led is OFF & buzzer

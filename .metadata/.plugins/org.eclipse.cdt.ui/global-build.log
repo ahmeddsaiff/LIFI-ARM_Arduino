@@ -1,0 +1,70 @@
+
+**** Clean-only build of configuration Debug for project FinalProject-LIFI ****
+
+"C:\\ti\\ccs1250\\ccs\\utils\\bin\\gmake" -k -j 16 clean -O 
+ 
+DEL /F  "FinalProject-LIFI.out" 
+DEL /F "tm4c123gh6pm_startup_ccs.obj" "APP\main.obj" "HAL\Buttons.obj" "HAL\FumeSensor.obj" "HAL\MagenticSensor.obj" "HAL\Transmitter.obj" "HAL\UltraSonic.obj" "MCAL\Systick_Functions.obj" "MCAL\UART.obj" 
+DEL /F "tm4c123gh6pm_startup_ccs.d" "APP\main.d" "HAL\Buttons.d" "HAL\FumeSensor.d" "HAL\MagenticSensor.d" "HAL\Transmitter.d" "HAL\UltraSonic.d" "MCAL\Systick_Functions.d" "MCAL\UART.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project FinalProject-LIFI ****
+
+"C:\\ti\\ccs1250\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/ahmed/OneDrive/Desktop/Labs-Embedded-SherifHamad_semster1/FinalProject_LIFI/FinalProject-LIFI" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../APP/main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/ahmed/OneDrive/Desktop/Labs-Embedded-SherifHamad_semster1/FinalProject_LIFI/FinalProject-LIFI" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="APP/main.d_raw" --obj_directory="APP"  "../APP/main.c"
+Finished building: "../APP/main.c"
+ 
+Building file: "../HAL/Buttons.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/ahmed/OneDrive/Desktop/Labs-Embedded-SherifHamad_semster1/FinalProject_LIFI/FinalProject-LIFI" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HAL/Buttons.d_raw" --obj_directory="HAL"  "../HAL/Buttons.c"
+Finished building: "../HAL/Buttons.c"
+ 
+Building file: "../HAL/FumeSensor.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/ahmed/OneDrive/Desktop/Labs-Embedded-SherifHamad_semster1/FinalProject_LIFI/FinalProject-LIFI" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HAL/FumeSensor.d_raw" --obj_directory="HAL"  "../HAL/FumeSensor.c"
+Finished building: "../HAL/FumeSensor.c"
+ 
+Building file: "../HAL/MagenticSensor.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/ahmed/OneDrive/Desktop/Labs-Embedded-SherifHamad_semster1/FinalProject_LIFI/FinalProject-LIFI" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HAL/MagenticSensor.d_raw" --obj_directory="HAL"  "../HAL/MagenticSensor.c"
+Finished building: "../HAL/MagenticSensor.c"
+ 
+Building file: "../HAL/Transmitter.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/ahmed/OneDrive/Desktop/Labs-Embedded-SherifHamad_semster1/FinalProject_LIFI/FinalProject-LIFI" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HAL/Transmitter.d_raw" --obj_directory="HAL"  "../HAL/Transmitter.c"
+Finished building: "../HAL/Transmitter.c"
+ 
+Building file: "../HAL/UltraSonic.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/ahmed/OneDrive/Desktop/Labs-Embedded-SherifHamad_semster1/FinalProject_LIFI/FinalProject-LIFI" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="HAL/UltraSonic.d_raw" --obj_directory="HAL"  "../HAL/UltraSonic.c"
+Finished building: "../HAL/UltraSonic.c"
+ 
+Building file: "../MCAL/Systick_Functions.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/ahmed/OneDrive/Desktop/Labs-Embedded-SherifHamad_semster1/FinalProject_LIFI/FinalProject-LIFI" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="MCAL/Systick_Functions.d_raw" --obj_directory="MCAL"  "../MCAL/Systick_Functions.c"
+Finished building: "../MCAL/Systick_Functions.c"
+ 
+Building file: "../MCAL/UART.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/ahmed/OneDrive/Desktop/Labs-Embedded-SherifHamad_semster1/FinalProject_LIFI/FinalProject-LIFI" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="MCAL/UART.d_raw" --obj_directory="MCAL"  "../MCAL/UART.c"
+Finished building: "../MCAL/UART.c"
+ 
+Building target: "FinalProject-LIFI.out"
+Invoking: Arm Linker
+"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=TARGET_IS_TM4C123_RB1 --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"FinalProject-LIFI.map" --heap_size=0 --stack_size=512 -i"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1250/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="FinalProject-LIFI_linkInfo.xml" --rom_model -o "FinalProject-LIFI.out" "./tm4c123gh6pm_startup_ccs.obj" "./APP/main.obj" "./HAL/Buttons.obj" "./HAL/FumeSensor.obj" "./HAL/MagenticSensor.obj" "./HAL/Transmitter.obj" "./HAL/UltraSonic.obj" "./MCAL/Systick_Functions.obj" "./MCAL/UART.obj" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "FinalProject-LIFI.out"
+ 
+
+**** Build Finished ****
